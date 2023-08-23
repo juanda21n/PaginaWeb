@@ -1,0 +1,69 @@
+/* Estilos para el cuerpo del documento */
+#bodyStyle {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #f9f3e6;
+    color: #444;
+}
+
+/* Estilos para el encabezado */
+#headerStyle {
+    background-color: hsl(236, 86%, 73%);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Estilos adicionales para el artículo */
+.articleStyle {
+    margin-top: 2rem;
+}
+
+/* Estilo para los encabezados de sección */
+.sectionHeader {
+    border-bottom: 2px solid #ff6347;
+    padding-bottom: 0.5rem;
+}
+
+/* Estilos para las listas */
+.listStyle {
+    list-style-type: none;   /* Elimina los puntos (bullets) de la lista */
+    flex: 1;                 /* Toma el espacio disponible para la columna de la lista */
+}
+
+/* Estilos para los ítems de la lista */
+.listItem {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para el contenedor que utiliza Flexbox */
+.flexContainer {
+    display: flex;           /* Activa Flexbox */
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    gap: 2rem;               /* Espacio entre las columnas */
+}
+
+/* Estilos para el tamaño y posición de la imagen */
+.imageStyle {
+    max-width: 200px;        /* Ancho máximo para la imagen */
+    flex: 0;                /* La imagen no crecerá ni se encogerá */
+}
+
+a{
+    display: block;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(127, 206, 255);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 150px 130px;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    background-color: transparent;
+    border: 2px solid rgb(127, 206, 255);
+    color:  rgb(127, 206, 255);
+}
